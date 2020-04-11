@@ -1,4 +1,4 @@
-# MoviePopularityPrediction
+# Movie Popularity Prediction
 Team members: Shaohua Shen, Zhou Lu, Jianing Fu, Sizhe Liu
 
 ## Motivation of Project
