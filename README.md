@@ -52,9 +52,9 @@ We quatized features including "rated", "actors", "director", "writer", "runtime
 ### Feature Analysis
 After quantize the features, we plot and visualized the correlation matrix and covariance matrix to show their relationships:  
 The labels appears in order of "actors","genre", "director", "writer", "production", "rated", "runtime", "imdb_rating"  
-Correlation matrix: 
+**Correlation matrix:  
 <img src="img/cor_mat.png" width="250">  
-Covariance matrix:  
+Covariance matrix:**  
 <img src="img/cov_mat.png" width="250">  
 
 ### Feature Selection
