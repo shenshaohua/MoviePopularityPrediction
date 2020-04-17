@@ -1,4 +1,4 @@
-CS 4641 Spring 2020 Team 23
+CS 4641 Spring 2020 Team 23  
 Team members: Shaohua Shen, Zhou Lu, Jianing Fu, Sizhe Liu
 
 # Motivation of Project
@@ -50,10 +50,12 @@ ratings, metascore, and awards were dropped since the movies/shows that we are t
 We quatized features including "rated", "actors", "director", "writer", "runtime", "production" by calculating the mean imdb_rating of each category/person's work and normalized from 0 to 10.0.
 
 ### Feature Analysis
-After quantize the features, we plot and visualized the correlation matrix and covariance matrix to show their relationships:
-The labels appears in order of "actors","genre", "director", "writer", "production", "rated", "runtime", "imdb_rating"
-Correlation matrix:
-Covariance matrix:
+After quantize the features, we plot and visualized the correlation matrix and covariance matrix to show their relationships:  
+The labels appears in order of "actors","genre", "director", "writer", "production", "rated", "runtime", "imdb_rating"  
+Correlation matrix:  
+![](img/cor_mat.png)  
+Covariance matrix:  
+![](img/cov_mat.png)
 
 ### Feature Selection
 
@@ -61,9 +63,14 @@ Covariance matrix:
 # Methods
 ## Regression
 ### Linear Regression
-We decided to make our first predictions with linear regression. We used scikit learn's linear regression tool to achieve this. Linear regression fits the situation well since it's simple and able to predict continuous values. 
-### Ridge & Losso
+We decided to make our first predictions with linear regression. We used scikit learn's linear regression tool to achieve this. Linear regression fits the situation well since it's simple and able to predict continuous values.  
+![](img/linear.png)  
+
+### Ridge & Lasso
+![](img/ridge.png)  
+![](img/lasso.png)  
 ## Neural Network
+![](img/nn.png)  
 
 # Conclusion
 Throughout the project, we gathered over 990,000 entries and unsampled unpopluar and old entries which would not provided valid rating information for predicting today's market behavior. We decided to analysis over 10,000 movies/shows released after year 2000 and with over 5000 votes. 
