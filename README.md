@@ -50,7 +50,10 @@ ratings, metascore, and awards were dropped since the movies/shows that we are t
 We quatized features including "rated", "actors", "director", "writer", "runtime", "production" by calculating the mean imdb_rating of each category/person's work and normalized from 0 to 10.0.
 
 ### Feature Analysis
-After quantize the features, we plot the following correlation matrix and covariance matrix to show their relationships:
+After quantize the features, we plot and visualized the correlation matrix and covariance matrix to show their relationships:
+The labels appears in order of "actors","genre", "director", "writer", "production", "rated", "runtime", "imdb_rating"
+Correlation matrix:
+Covariance matrix:
 
 ### Feature Selection
 
