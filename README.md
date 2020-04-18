@@ -70,7 +70,7 @@ We decided to make our first predictions with linear regression. We used scikit 
 ![](img/ridge.png)  
 ![](img/lasso.png)  
 ## Neural Network
-![](img/nn.png)  
+![](img/Neural result.png)  
 
 # Conclusion
 Throughout the project, we gathered over 990,000 entries and unsampled unpopluar and old entries which would not provided valid rating information for predicting today's market behavior. We decided to analysis over 10,000 movies/shows released after year 2000 and with over 5000 votes. 
