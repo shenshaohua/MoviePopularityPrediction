@@ -70,7 +70,11 @@ We decided to make our first predictions with linear regression. We used scikit 
 ![](img/ridge.png)  
 ![](img/lasso.png)  
 ## Neural Network
+We also used neural network for prediction. Neural network is widely utilized in predictive analyzing problems that are similar with ours. Similar with regression, we used scikit learn tools to implement our nn model. To be more specific, we took use of the MLPRegressor class, which is a multi-layer perceptron regression system. It uses the square error as the loss function, and the output is a set of continuous values. For the parameters employed in our network, the activation function is Relu and optimization solver is Adam. Our learning rate is initially 0.0005 and constant during the time. The results we received from the model are shown below, including errors and R2 score:
 ![](img/nn.png)  
+The Root Mean Square Error was 0.118, and the R2 score was 0.112. We tried using different learning rates and optimization solvers. The best result we have in one run so far was below:
+![](img/Neuralresult.png) 
+The neural network was not performing better than the linear regression model. Results from neural network are similar with those from Ridge and Lasso regression models.
 
 # Conclusion
 Throughout the project, we gathered over 990,000 entries and unsampled unpopluar and old entries which would not provided valid rating information for predicting today's market behavior. We decided to analysis over 10,000 movies/shows released after year 2000 and with over 5000 votes. 
