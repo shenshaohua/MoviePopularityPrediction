@@ -63,12 +63,15 @@ Covariance matrix:**
 # Methods
 ## Regression
 ### Linear Regression
-We decided to make our first predictions with linear regression. We used scikit learn's linear regression tool to achieve this. Linear regression fits the situation well since it's simple and able to predict continuous values.  
+We decided to make our first predictions with linear regression. We used regression tool from scikit-learn library to achieve this. Regression fits the situation well since it's simple and able to predict continuous values. We first attempted to use simple linear regression, but the results are not ideal, most of the predictions falls in range [0.6, 0.8], while the actual values vary largely
 ![](img/linear.png)  
 
 ### Ridge & Lasso
+Aside from simple regression we also tried adding regularization factors into the regression model
 ![](img/ridge.png)  
-![](img/lasso.png)  
+![](img/lasso.png)
+
+We observed that the range of prediction lies in range [0.4, 0.9] after applying polynomial regression, which is a large improvement, but the results are still not optimal. One possible explanation is that most film ratings fall in the range of [4, 9], and it is unusual for a film to either not recieving any critical comment (>9), or recieving only critical comments (<4), and there might be factors that we did not take into consideration that could still affect the rating of the film.
 ## Neural Network
 We also used neural network for prediction. Neural network is widely utilized in predictive analyzing problems that are similar with ours. Similar with regression, we used scikit learn tools to implement our nn model. To be more specific, we took use of the MLPRegressor class, which is a multi-layer perceptron regression system. It uses the square error as the loss function, and the output is a set of continuous values. For the parameters employed in our network, the activation function is Relu and optimization solver is Adam. Our learning rate is initially 0.0005 and constant during the time. The results we received from the model are shown below, including errors and R2 score:
 ![](img/nn.png)  
