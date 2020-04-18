@@ -63,11 +63,13 @@ Covariance matrix:**
 # Methods
 ## Regression
 ### Linear Regression
-We decided to make our first predictions with linear regression. We used regression tool from scikit-learn library to achieve this. Regression fits the situation well since it's simple and able to predict continuous values. We first attempted to use simple linear regression, but the results are not ideal, most of the predictions falls in range [0.6, 0.8], while the actual values vary largely
+We decided to make our first predictions with linear regression. We used regression tool from scikit-learn library to achieve this. Regression fits the situation well since it's simple and able to predict continuous values. We first attempted to use simple linear regression, but the results are not ideal, most of the predictions falls in range [0.6, 0.8], while the actual values vary largely, the restult is shown as below:
 ![](img/linear.png)  
-
+### Polynomial Regression
+To improve our result, we then applied polynomial regression, to take the interaction between factors into consideration:
+![](img/poly.png)  
 ### Ridge & Lasso
-Aside from simple regression we also tried adding regularization factors into the regression model
+Aside from simple regression we also tried adding regularization factors into the regression model:
 ![](img/ridge.png)  
 ![](img/lasso.png)
 
