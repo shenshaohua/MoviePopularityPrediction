@@ -70,7 +70,9 @@ To improve our result, we then applied polynomial regression, to take the intera
 ![](img/poly.png)  
 ### Ridge & Lasso
 Aside from simple regression we also tried adding regularization factors into the regression model:
-![](img/ridge.png)  
+#### Ridge
+![](img/ridge.png)
+#### Lasso
 ![](img/lasso.png)
 
 We observed that the range of prediction lies in range [0.4, 0.9] after applying polynomial regression, which is a large improvement, but the results are still not optimal. One possible explanation is that most film ratings fall in the range of [4, 9], and it is unusual for a film to either not recieving any critical comment (>9), or recieving only critical comments (<4), and there might be factors that we did not take into consideration that could still affect the rating of the film.
