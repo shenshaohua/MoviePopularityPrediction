@@ -117,6 +117,6 @@ We believe that our prediction accuracy is hampered by insufficient data, most n
 
 [1]“Video Streaming Market Worth $184.3 Billion By 2027: CAGR: 20.4%.” Market Research Reports & Consulting, www.grandviewresearch.com/press-release/global-video-streaming-market.
 
-[2] https://www.imdb.com/interfaces/  https://datasets.imdbws.com/
+[2] Datasets.imdbws.com, datasets.imdbws.com/.
 
-[3] http://www.omdbapi.com/
+[3] “OMDb API.” OMDb API - The Open Movie Database, www.omdbapi.com/.
