@@ -11,7 +11,7 @@ Our source is from the IMDb Dataset[2] and the OMDb API[3]. We first pulled a li
 Detailed information of the filtered dataset was pulled from the OMDb API, giving 10,489 entries.
 
 ## Dataset Features
-There are x features in the dataset:
+There are 24 features in the dataset:
 1. "title", title of the movie
 2. "year", production year of the entry
 3. "rated", parental guidance rating of the entry
