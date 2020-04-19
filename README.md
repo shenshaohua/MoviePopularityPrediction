@@ -39,19 +39,6 @@ There are 24 features in the dataset:
 
 This project is trying to predict the entry's "imdb_rating" by other given information.
 
-## Dataset Visualization
-
-After filtering movies that have insufficient ratings as well as old movies produced before the year 2000, we ended up with 10489 entries. We quantized the features used for our predicted model using the IMDB rating system, normalized.
-The following graphs show the number of films within each IMDB rating (fit to histogram buckets) for Actors, Genre, Director, Writer, Production, Rated, and runtime, as well as net IMDB rating.
-
-![](visualization_img/director.png)  
-![](visualization_img/actor.png)  
-![](visualization_img/genre.png)  
-![](visualization_img/writer.png)  
-![](visualization_img/production.png)  
-![](visualization_img/rated.png)  
-![](visualization_img/runtime.png)  
-
 ## Data Pre-Processing
 ### Irrelevent Features
 "Plot", "Poster", "Language", and "Country" was deleted from the dataset since it's hard to analysis or might be discriminative.
@@ -68,6 +55,19 @@ The labels appears in order of "actors","genre", "director", "writer", "producti
 <img src="img/cor_mat.png" width="250">  
 Covariance matrix:**  
 <img src="img/cov_mat.png" width="250">  
+
+## Dataset Visualization
+
+After filtering movies that have insufficient ratings as well as old movies produced before the year 2000, we ended up with 10489 entries. We quantized the features used for our predicted model using the IMDB rating system, normalized.
+The following graphs show the number of films within each IMDB rating (fit to histogram buckets) for Actors, Genre, Director, Writer, Production, Rated, and runtime, as well as net IMDB rating.
+
+![](visualization_img/director.png)  
+![](visualization_img/actor.png)  
+![](visualization_img/genre.png)  
+![](visualization_img/writer.png)  
+![](visualization_img/production.png)  
+![](visualization_img/rated.png)  
+![](visualization_img/runtime.png)  
 
 # Methods
 ## Regression
