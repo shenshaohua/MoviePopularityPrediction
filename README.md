@@ -1,4 +1,4 @@
-CS 4641 Spring 2020 Team 23  
+CS 4641 Spring 2020 Team 22  
 Team members: Shaohua Shen, Zhou Lu, Jianing Fu, Sizhe Liu
 
 # Motivation of Project
