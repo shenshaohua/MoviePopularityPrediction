@@ -69,9 +69,6 @@ The labels appears in order of "actors","genre", "director", "writer", "producti
 Covariance matrix:**  
 <img src="img/cov_mat.png" width="250">  
 
-### Feature Selection
-
-
 # Methods
 ## Regression
 ### Linear Regression
