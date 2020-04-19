@@ -93,7 +93,6 @@ We also used neural network for prediction. Neural network is widely utilized in
 ![](img/nn.png)  
 The Root Mean Square Error was 0.118, and the R2 score was 0.112. We tried using different learning rates and optimization solvers. The best result we have in one run so far was below:
 ![](img/Neuralresult.png) 
-The neural network was not performing better than the linear regression model. Results from neural network are similar with those from Ridge and Lasso regression models.
 
 # Conclusion
 Throughout the project, we gathered over 990,000 entries and unsampled unpopluar and old entries which would not provided valid rating information for predicting today's market behavior. We decided to analysis over 10,000 movies/shows released after year 2000 and with over 5000 votes.
